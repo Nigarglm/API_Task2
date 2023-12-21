@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "ON936IheSX/nDiV858cVhSPKzLaazttlAIb5bl7DbnbixIS/XtegtwJRJU/l8LNqeLA4ztmdHTfUzMOb9zJR0w==",
+  "dgSpecHash": "7YT0IXTe70kXxkwomeA1MjP8/8eBMEkHILkqHj9efSWSjwJAoT6nqnFB/9BTxXx6hxuy2w4Zm5ZJj9nUIqaNnA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Work\\Desktop\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Work\\.nuget\\packages\\autofac\\4.9.2\\autofac.4.9.2.nupkg.sha512",
     "C:\\Users\\Work\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Work\\.nuget\\packages\\cleancodelabs.automapper.extensions.autofac.dependencyinjection\\3.2.0\\cleancodelabs.automapper.extensions.autofac.dependencyinjection.3.2.0.nupkg.sha512",
+    "C:\\Users\\Work\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\Work\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Work\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\Work\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Work\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Work\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

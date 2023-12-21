@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VvcLRCkYRDofcwslptSQfqTh0H54K2QCQ28ERez5WgIAWE57+ZRRLU+GIXhXxG6PKJTTlO6s0tyUBPMzl6QMnQ==",
+  "dgSpecHash": "obHj5qFteWngJ8dQo8kF+GdQy6rc5GLRORmZ7x4UvKMgFQ4uk1uMmYYmnoYJXrP/YfNGmcuQTntxiRD4NAA/dQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Work\\Desktop\\ProniaOnion\\src\\Core\\ProniaOnion.Domain\\ProniaOnion.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Work\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Work\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Work\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\Work\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

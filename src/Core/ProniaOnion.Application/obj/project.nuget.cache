@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "F+GFWRJ8VYz8w0HbDQe46RfSH+KOv3CeP4TFC414+ulP04SphfUeHy8SiH4bgTxjCtxy5km1/CxIUabbhO0MEg==",
+  "dgSpecHash": "g9ubVPZooAlSfDAyxx1dy7h/EQMeqJ6f4guUkSKxdrCzomC5LuJ0FdxkAhaxb/LI41PRhYZ5BEhY7F2gVpRNrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Work\\Desktop\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Work\\.nuget\\packages\\autofac\\4.9.2\\autofac.4.9.2.nupkg.sha512",
     "C:\\Users\\Work\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Work\\.nuget\\packages\\cleancodelabs.automapper.extensions.autofac.dependencyinjection\\3.2.0\\cleancodelabs.automapper.extensions.autofac.dependencyinjection.3.2.0.nupkg.sha512",
+    "C:\\Users\\Work\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\Work\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Work\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\Work\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Work\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],

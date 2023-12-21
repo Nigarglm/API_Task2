@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ProniaOnion.Application.Abstractions.Services;
 using ProniaOnion.Application.DTOs.Categories;
+using ProniaOnion.Domain.Entities;
 
 namespace ProniaOnion.API.Controllers
 {

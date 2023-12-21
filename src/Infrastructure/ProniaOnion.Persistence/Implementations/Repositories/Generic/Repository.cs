@@ -32,7 +32,13 @@ namespace ProniaOnion.Persistence.Implementations.Repositories.Generic
                 _table.Remove(entity);
             }
 
-            public IQueryable<T> GetAllAsync(
+        public void SoftDelete(T entity)
+        {
+            entity.IsDeleted = true;
+            _table.Update(entity);
+        }
+
+        public IQueryable<T> GetAllAsync(
                 Expression<Func<T, bool>>? expression = null,
                 Expression<Func<T, object>>? orderExpression = null,
                 bool isDescending = false,
@@ -97,7 +103,9 @@ namespace ProniaOnion.Persistence.Implementations.Repositories.Generic
                 throw new NotImplementedException();
             }
 
-            public void Update(T entity)
+        
+
+        public void Update(T entity)
             {
                 _table.Update(entity);
             }
