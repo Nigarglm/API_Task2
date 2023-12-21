@@ -1,11 +1,246 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Autofac/4.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AutoMapper/12.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "8.1.0",
+          "Autofac": "4.9.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Autofac.DependencyInjection.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Autofac.DependencyInjection.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "ProniaOnion.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ProniaOnion.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProniaOnion.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Autofac/4.9.2": {
+      "sha512": "lfCcNOzU97f2WFtdo/+SkR0XtpdH20QA5Ob/T2Iv027wFMvDk7EZZ2oj6ERtWL+LBfPTOrbk9zyLj6Okx2CoHA==",
+      "type": "package",
+      "path": "autofac/4.9.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.4.9.2.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.pdb",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.pdb",
+        "lib/netstandard1.1/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml"
+      ]
+    },
+    "AutoMapper/12.0.1": {
+      "sha512": "hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "type": "package",
+      "path": "automapper/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.12.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.dll",
+        "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection/3.2.0": {
+      "sha512": "6sJ1ahiMxZ7E1TsmxGvOliAq9Fw/Rs8XG9tJ7gSeeeH96yhJnSWPOS4CampcLvb8VvI3FGGX6fQYtH2VfPCMRg==",
+      "type": "package",
+      "path": "cleancodelabs.automapper.extensions.autofac.dependencyinjection/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cleancodelabs.automapper.extensions.autofac.dependencyinjection.3.2.0.nupkg.sha512",
+        "cleancodelabs.automapper.extensions.autofac.dependencyinjection.nuspec",
+        "lib/netstandard2.0/AutoMapper.Extensions.Autofac.DependencyInjection.dll",
+        "lib/netstandard2.0/AutoMapper.Extensions.Autofac.DependencyInjection.pdb"
+      ]
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "ProniaOnion.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ProniaOnion.Domain/ProniaOnion.Domain.csproj",
+      "msbuildProject": "../ProniaOnion.Domain/ProniaOnion.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "AutoMapper >= 12.0.1",
+      "CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection >= 3.2.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
+      "ProniaOnion.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Work\\.nuget\\packages\\": {},
@@ -14,11 +249,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Work\\source\\repos\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Work\\Desktop\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj",
       "projectName": "ProniaOnion.Application",
-      "projectPath": "C:\\Users\\Work\\source\\repos\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj",
+      "projectPath": "C:\\Users\\Work\\Desktop\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj",
       "packagesPath": "C:\\Users\\Work\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Work\\source\\repos\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\obj\\",
+      "outputPath": "C:\\Users\\Work\\Desktop\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -38,7 +273,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Work\\Desktop\\ProniaOnion\\src\\Core\\ProniaOnion.Domain\\ProniaOnion.Domain.csproj": {
+              "projectPath": "C:\\Users\\Work\\Desktop\\ProniaOnion\\src\\Core\\ProniaOnion.Domain\\ProniaOnion.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -50,6 +289,20 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[12.0.1, )"
+          },
+          "CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

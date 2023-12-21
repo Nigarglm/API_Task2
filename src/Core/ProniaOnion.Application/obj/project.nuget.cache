@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "bn0D8mwIDJRsVhiHBr+YGGO+UjqgARJEiS8elCTdBCo9+D9nkqOp/rHhIb0RAFzq3wXAbiLKKoobPrbYpRJd0A==",
+  "dgSpecHash": "F+GFWRJ8VYz8w0HbDQe46RfSH+KOv3CeP4TFC414+ulP04SphfUeHy8SiH4bgTxjCtxy5km1/CxIUabbhO0MEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Work\\source\\repos\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Work\\Desktop\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Work\\.nuget\\packages\\autofac\\4.9.2\\autofac.4.9.2.nupkg.sha512",
+    "C:\\Users\\Work\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Work\\.nuget\\packages\\cleancodelabs.automapper.extensions.autofac.dependencyinjection\\3.2.0\\cleancodelabs.automapper.extensions.autofac.dependencyinjection.3.2.0.nupkg.sha512",
+    "C:\\Users\\Work\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Work\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
