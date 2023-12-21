@@ -15,7 +15,6 @@ namespace ProniaOnion.Domain.Entities
         public string CreatedBy { get; set; }
         public BaseEntity()
         {
-            CreatedAt = DateTime.Now;
             CreatedBy = "nigar.glm";
         }
     }

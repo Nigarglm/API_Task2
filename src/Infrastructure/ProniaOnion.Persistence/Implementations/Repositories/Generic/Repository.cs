@@ -45,6 +45,7 @@ namespace ProniaOnion.Persistence.Implementations.Repositories.Generic
                 int skip = 0,
                 int take = 0,
                 bool isTracking = true,
+                bool isDeleted = false,
                 params string[] includes)
             {
                 var query = _table.AsQueryable();
@@ -78,6 +79,9 @@ namespace ProniaOnion.Persistence.Implementations.Repositories.Generic
                         query = query.Include(includes[i]);
                     }
                 }
+
+                if(isDeleted) query=query.IgnoreQueryFilters();
+
                 return isTracking ? query : query.AsNoTracking();
             }
 

@@ -12,7 +12,7 @@ namespace ProniaOnion.Application.Validators
     {
         public CategoryCreateDtoValidator()
         {
-            RuleFor(x => x.Name).NotEmpty().MaximumLength(50).MinimumLength(1).Matches(@"^[a-zA-Z0-9\s]*$");
+            RuleFor(x => x.Name).NotEmpty().MaximumLength(100).MinimumLength(1).Matches(@"^[a-zA-Z0-9\s]*$");
         }
     }
 }
