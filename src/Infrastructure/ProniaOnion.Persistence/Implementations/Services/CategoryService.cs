@@ -25,7 +25,7 @@ public class CategoryService : ICategoryService
 
     public async Task<ICollection<CategoryItemDTO>> GetAllAsync(int page, int take)
     {
-        ICollection<Category> categories = await _repository.GetAllAsync(skip: (page - 1) * take, take: take, isTracking: false, isDeleted: true).ToListAsync();
+        ICollection<Category> categories = await _repository.GetAllWhere(skip: (page - 1) * take, take: take, isTracking: false, ignoreQuery: true).ToListAsync();
 
         ICollection<CategoryItemDTO> categoryDtos = _mapper.Map<ICollection<CategoryItemDTO>>(categories);
 

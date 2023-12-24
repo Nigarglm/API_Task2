@@ -10,5 +10,6 @@ namespace ProniaOnion.Application.Abstractions.Services
     public interface IProductService
     {
         Task<IEnumerable<ProductItemDTO>> GetAllPaginated(int page, int take);
+        Task<ProductGetDTO> GetByIdAsync(int id);
     }
 }

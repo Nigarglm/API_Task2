@@ -22,7 +22,7 @@ namespace ProniaOnion.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
-            return Ok(await _service.GetAllPaginated(page, take));
+            return Ok(await _service.GetByIdAsync(id));
         }
     }
 }
