@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using Microsoft.EntityFrameworkCore;
 using ProniaOnion.Domain.Entities;
 
 namespace ProniaOnion.Persistence.Common
 {
-    internal class GlobalQueryFilter
+    public static class GlobalQueryFilter
     {
         public static void ApplyQuery<T>(ModelBuilder builder) where T : BaseEntity, new()
         {

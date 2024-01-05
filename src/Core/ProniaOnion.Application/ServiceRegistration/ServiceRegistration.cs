@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using System.Reflection;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace ProniaOnion104.Application.ServiceRegistration
 {
@@ -6,7 +7,7 @@ namespace ProniaOnion104.Application.ServiceRegistration
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection service)
         {
-            //service.AddAutoMapper(Assembly.GetExecutingAssembly()); (ERROR VERIR DUZELDE BILMEDIM)
+            service.AddAutoMapper(Assembly.GetExecutingAssembly()); 
             return service;
         }
     }

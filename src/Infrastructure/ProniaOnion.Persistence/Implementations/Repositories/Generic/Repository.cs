@@ -129,9 +129,9 @@ namespace ProniaOnion.Persistence.Implementations.Repositories;
         {
         entity.IsDeleted = false;
         }
-        public Task SaveChangesAsync()
+        public async Task SaveChangesAsync()
         {
-        throw new NotImplementedException();
+        await _context.SaveChangesAsync();
         }
 
     private IQueryable<T> _addIncludes(IQueryable<T> query, params string[] includes)
@@ -146,5 +146,8 @@ namespace ProniaOnion.Persistence.Implementations.Repositories;
         return query;
     }
 
-
+    public Task<bool> IsExistAsync(Expression<Func<T>> expression, bool ignoreQuery = false)
+    {
+        throw new NotImplementedException();
     }
+}

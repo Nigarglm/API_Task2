@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 
 namespace ProniaOnion.Domain.Entities
 {
-    public class Color:BaseNameableEntity
+    public class AppUser:IdentityUser
     {
-        public int Id { get; set; }
-        public ICollection<ProductColor>? ProductColors { get; set; }
+        public string Name { get; set; }
+        public string SurName { get; set; }
     }
 }
