@@ -11,5 +11,6 @@ namespace ProniaOnion.Domain.Entities
     {
         public string Name { get; set; }
         public string SurName { get; set; }
+        public bool IsActive { get; set; }
     }
 }

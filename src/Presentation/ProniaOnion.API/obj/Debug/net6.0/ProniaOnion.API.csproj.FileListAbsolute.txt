@@ -72,3 +72,14 @@ C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\obj\Debug\net
 C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\obj\Debug\net6.0\ref\ProniaOnion.API.dll
 C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\bin\Debug\net6.0\Autofac.dll
+C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\bin\Debug\net6.0\AutoMapper.Extensions.Autofac.DependencyInjection.dll
+C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Work\Desktop\ProniaOnion\src\Presentation\ProniaOnion.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

@@ -43,14 +43,14 @@ namespace ProniaOnion.Persistence.Implementations.Services
 
         public async Task CreateAsync([FromForm] ProductCreateDTO dto)
         {
-            if(await _repository.IsExistAsync(p=>p.Name==dto.Name)) throw new Exception("Product with this name is already exists");
-            if (!await _categoryRepository.IsExistAsync(c => c.Id == dto.CategoryId)) throw new Exception("dont");
+           // if(await _repository.IsExistAsync(p=>p.Name==dto.Name)) throw new Exception("Product with this name is already exists");    ERROOOOORRRRRR
+           // if (!await _categoryRepository.IsExistAsync(c => c.Id == dto.CategoryId)) throw new Exception("dont");                      ERROOOOORRRRRR
 
             Product product = _mapper.Map<Product>(dto);
             product.ProductColors = new List<ProductColor>();
             foreach (var colorId in dto.ColorIds)
             {
-                if (await _colorRepository.IsExistAsync(c => c.Id == colorId)) throw new Exception("dont");
+               // if (await _colorRepository.IsExistAsync(c => c.Id == colorId)) throw new Exception("dont");      ERROOOOORRRRRR
                 product.ProductColors.Add(new ProductColor { ColorId = colorId });
             }
 
@@ -64,7 +64,7 @@ namespace ProniaOnion.Persistence.Implementations.Services
             if (existed == null) throw new Exception("dont");
 
             if (dto.CategoryId != existed.CategoryId)
-                if (!await _categoryRepository.IsExistAsync(c => c.Id == dto.CategoryId))
+               // if (!await _categoryRepository.IsExistAsync(c => c.Id == dto.CategoryId))           ERROOOORRRRRRR
                     throw new Exception("dont");
              
             existed = _mapper.Map(dto, existed);
@@ -76,7 +76,7 @@ namespace ProniaOnion.Persistence.Implementations.Services
             //}
             foreach (var cId in dto.ColorIds)
             {
-                if (!await _colorRepository.IsExistAsync(c => c.Id == cId)) throw new Exception("exception");
+                //if (!await _colorRepository.IsExistAsync(c => c.Id == cId)) throw new Exception("exception");           ERROOOORRRRRRR
                 if (!existed.ProductColors.Any(pc => pc.ColorId == cId))
                 {
                     existed.ProductColors.Add(new ProductColor { ColorId = cId});

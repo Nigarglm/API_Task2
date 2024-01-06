@@ -7,7 +7,7 @@ namespace ProniaOnion104.Application.ServiceRegistration
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection service)
         {
-            service.AddAutoMapper(Assembly.GetExecutingAssembly()); 
+            //service.AddAutoMapper(Assembly.GetExecutingAssembly());               ERROOOORRRR
             return service;
         }
     }

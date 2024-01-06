@@ -984,6 +984,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection": "3.2.0",
           "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25"
         },
@@ -2429,6 +2430,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection >= 3.2.0",
       "FluentValidation.AspNetCore >= 11.3.0",
       "Microsoft.EntityFrameworkCore >= 6.0.25",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.25",
@@ -2485,6 +2487,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
           "FluentValidation.AspNetCore": {
             "target": "Package",
             "version": "[11.3.0, )"

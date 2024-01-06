@@ -1,12 +1,13 @@
-//using ProniaOnion.Application.ServiceRegistration; (ERRORRR)
+
 using FluentValidation.AspNetCore;
 using ProniaOnion.Application.Validators;
 using ProniaOnion.Persistence.ServiceRegistration;
+using ProniaOnion104.Application.ServiceRegistration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-//builder.Services.AddApplicationServices();  (SAME ERROOORRRR)
+builder.Services.AddApplicationServices();  
 builder.Services.AddPersistenceService(builder.Configuration);
 builder.Services.AddControllers().AddFluentValidation(c=>c.RegisterValidatorsFromAssemblyContaining<CategoryCreateDtoValidator>());
 builder.Services.AddControllers();
